@@ -1,0 +1,134 @@
+
+float(raw_input("in: "))
+null -> None
+True, False (большая буква)
+from math import *
+
+from datetime import date
+today = date( 2006, 8, 25 )
+
+import datetime
+tomorrow = datetime.date( 2006, 8, 26 )
+
+print 'something', # to prevent linefeed - предотвратить перенос строки
+
+result = "The value of x is " + str( x )
+
+def method(self, non_default_param, default_params):
+
+name = "John Smith"
+first = name[0:4]
+last = name[5:]
+end = name[:-4]
+print "-" * 5  # = "-----"
+print "Origin: (%d, %d)\n" % (pointX, pointY)
+# %[flags][width][.precision]code
+
+# '==' сравнивает обьекты, а не ссылки на них. str1 == str2 # This is OK
+# Чтобы сравнить ссылки: str1 is str2
+name1 == None, name1 is None # they are equals
+
+if 1 == 1: print('')
+elif 'b' not in 'abc': print('')
+else: print('here')
+
+Pip is a tool for installing and managing Python packages.
+pip install -r requirements.txt
+
+xrange( 1, 11 ) # 1-10
+range( 1, 11 ) # 1-10 too
+ The xrange() function is more efficient since a physical list is not created.
+xrange( 1, 11, 2 ) # 1-10
+
+# ----------------------------
+text = raw_input( "Enter a string to be evaluated: " )
+
+# Iterate through the string.
+numVowels = 0
+for ch in text :
+   if ch in "aeiou" :
+      numVowels = numVowels + 1
+# ----------------------------
+
+# Function definition:
+def sumRange( first, last ) :
+
+#Python is a dynamically typed language with polymorphism everywhere. In fact, every operator in Python is a polymorphic operation. Polymorphism also plays a role with function arguments.
+
+# ERROR!
+def foo( argA, argB = 0, argC ) :
+
+# Можно изменить порядок передаваемых аргументов если явно передать их названия при вызове:
+sumRange2( last = 100, step = 3, first = 1 )
+
+
+# ----------------------------
+# varA нельзя изменить внутри функции но можно прочитать.
+# Если попытаться изменить, то будет создана локальная переменная.
+# Чтобы разрешить МОДИФИЦИРОВАТЬ глобальную переменную:
+# global varA # и дальше модифицируем
+varA = 40
+
+def two( varB ) :
+   varC = varA + varB
+   varA = 0
+   return varC
+
+print varA, two( 20 )
+# ----------------------------
+
+from math import *
+import modA
+modA.funcA()
+
+
+
+ You should import a module within a source file if any component of that module is used. Let the interpreter omit it, if it has already been included.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
